@@ -25,7 +25,7 @@ Thankfully, in [May 2016](https://www.youtube.com/watch?v=x8u0n4dT-WI&feature=yo
 ```sh
 npm run debug:attach
 ```
-Under the hood, this runs `node --inspect --inspect-brk`.
+Under the hood, this runs `node --inspect --inspect-brk`.   (This start up V8 engine, and add the benefit to freeze as soon as you start up and add debuggers.)
 
 <br><br><br><br>
 
@@ -87,7 +87,7 @@ npm run debug:inspect
 * Conditional breakpoints
 * Restart Frame
 * Column Breakpoints
-* Skipping Code
+* Skipping Code - also refer to as Blackboxing / Smart Step, choose NOT to debug external code (e.g. framework, dependencies or libraries)
 
 <br><br><br><br>
 

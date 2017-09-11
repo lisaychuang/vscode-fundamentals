@@ -47,6 +47,7 @@ export default class OrderStore {
    * Get an individual order by id
    * This will result a new API request being made
    * 
+   * @param {number} id
    * @public
    */
   getOrderById(id) {
@@ -61,6 +62,6 @@ export default class OrderStore {
    * @private
    */
   _onOrdersUpdated() {
-    this.orderListeners.fire({data: this.orders});
+    this.orderListeners.fire({ data: this.orders });
   }
 }

@@ -1,5 +1,5 @@
 /**
-* @typedef {(items: any[]) => void} Listener
+* @typedef {(items: ArrayLike<any>) => void} Listener
 */
 
 /**
@@ -33,7 +33,7 @@ export default class ListenerSupport {
 
   /**
    * Fire an event, synchronously invoking all listener callbacks that have been registered
-   * @param {{data:object[]}} payload
+   * @param {{data: ArrayLike<any>}} payload
    * @see #register 
    */
   fire(payload) {

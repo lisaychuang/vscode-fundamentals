@@ -41,10 +41,11 @@ Over time we're seeing support for:
 * 🚫 Don't make ANOTHER heavy IDE
 
 * 🔒 Don't impose lots of opinions onto users
-  * ⌨️ Bring your [keybindings](https://code.visualstudio.com/docs/getstarted/keybindings) with you
+  * ⌨️ Bring your [keybindings](https://code.visualstudio.com/docs/getstarted/keybindings) with you - awesome feature! Instead of learning new keybindings per text editor, just port it over 😃
 
 * 🤝 Favor open standards over proprietary formats
   - i.e., `.jsconfig`, `.editorconfig`
+  - Links:[.jsconfig](https://code.visualstudio.com/docs/languages/jsconfig), [.editorconfig](http://editorconfig.org/)
 
 
 
@@ -53,10 +54,12 @@ Over time we're seeing support for:
 ## Not just a new twist
 
 🙌 Best cross-platform [TypeScript](http://www.typescriptlang.org/) development experience available
+   - Typescript is a TYPED version of JS that supercedes regular JS.
    - Leverages TypeScript technology to give you insight into your regular JavaScript
 
 👌 A great .NET development experience on OS X and Linux
    - _finally_ an OS maker that doesn't lock us in
+   - Can now build [C#](https://en.wikipedia.org/wiki/C_Sharp_(programming_language)) project on VS Code!
 
 ⏩ Doesn't require a week of tweaking/config to get "right"
 

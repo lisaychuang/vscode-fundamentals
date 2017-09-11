@@ -27,7 +27,7 @@
 ### Selection
 
 * Select All <kbd>Cmd + A</kbd>
-* Select Next Occurrence <kbd>Your KB Here</kbd>
+* Select Next Occurrence <kbd>Cmd + D</kbd>
 * Select All Occurrences <kbd>Your KB Here</kbd>
 
 <br><br>
@@ -37,6 +37,7 @@
 * Add cursor @ position <kbd>Opt + Click</kbd>
 * Box select <kbd>Opt + Shift + Click</kbd>
 * Undo last cursor <kbd>Cmd + U</kbd>
+* Deselect a word <kbd>Option</kbd>
 
 <br><br>
 
@@ -52,8 +53,8 @@
 ### Peek
 
 * Opens up a split in editor
-* Peek at type definition
-* Find all References
+* Peek at type definition: Right click on a `function name` and choose **Peek Definition** 
+* Find all References: Right click on a `function name` and choose **Find All References** 
 
 <br><br><br><br>
 

@@ -5,9 +5,11 @@
     "module": "commonjs",
     "sourceMap": true,
     "noImplicitReturns": true,
+    "noImplicitAny":true,
     "experimentalDecorators": true,
     "baseUrl": ".",
     "allowJs": true,
+    "checkJs": true,
     "paths": {
       "muicss": ["node_modules/muicss/lib/react/*"]
     }
